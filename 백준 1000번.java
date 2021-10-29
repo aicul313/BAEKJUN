@@ -9,6 +9,7 @@ public class Main{
 
         int sum = A + B;
 
+        
         System.out.println(sum);
 
     }

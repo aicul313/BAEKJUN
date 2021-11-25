@@ -14,7 +14,6 @@ public class Main {
         for(int i=0; i<N; i++){
 
             st = new StringTokenizer(n.readLine()," ");
-            
             bw.write((Integer.parseInt(st.nextToken())+Integer.parseInt(st.nextToken()))+"\n");
 
         }

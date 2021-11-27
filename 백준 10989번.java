@@ -21,7 +21,7 @@ public class Main {
             sb.append(arr[i]).append('\n');
         }
 
-        System.out.println(ㅁㄴㅇㄹ);
+        System.out.println(sb);
 
     }
 }

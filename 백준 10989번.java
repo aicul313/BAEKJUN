@@ -5,8 +5,10 @@ public class Main {
     public static void main(String[] args) throws IOException{
 
         BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+        
         int N = Integer.parseInt(br.readLine());
         int arr[] = new int[N];
+        
         StringBuilder sb = new StringBuilder();
 
         for(int i=0; i<N; i++){
@@ -19,7 +21,7 @@ public class Main {
             sb.append(arr[i]).append('\n');
         }
 
-        System.out.println(sb);
+        System.out.println(ㅁㄴㅇㄹ);
 
     }
 }

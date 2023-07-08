@@ -8,15 +8,15 @@ public class Main {
 
         int n = sc.nextInt();
         int[] arr = new int[n];
-        int M = sc.nextInt();
+        int m  = sc.nextInt();
 
-        for(int i = 0; i < M; i++) {
-            int I = sc.nextInt();
-            int J = sc.nextInt();
-            int K = sc.nextInt();
+        for(int i = 0; i < m; i++) {
+            int z = sc.nextInt();
+            int x = sc.nextInt();
+            int y = sc.nextInt();
 
-            for(int j = I - 1; j < J; j++) {
-                arr[j] = K;
+            for(int j = z - 1; j < x; j++) {
+                arr[j] = y;
             }
         }
         for(int k = 0; k < arr.length; k++) {
